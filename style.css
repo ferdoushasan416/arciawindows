@@ -417,6 +417,104 @@ Quality Service Css End
 ============================
 */
 
+/*
+============================
+Contact Css Start
+============================
+*/
+.contact-section {
+  margin-top: 400px;
+}
+.contact-inner {
+  background-size: cover;
+  background-position: center;
+}
+.contact-info {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.contact-section {
+  margin-top: 370px;
+}
+.contact-inner {
+  background-size: cover;
+  background-position: center;
+}
+.contact-info {
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	padding-left: 65px;
+	max-width: 400px;
+}
+.contact-form {
+	padding: 65px;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+	margin-top: -220px;
+}
+.field {
+  margin-bottom: 10px;
+}
+.field label {
+  display: block;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.field input, .field textarea {
+  display: block;
+  width: 100%;
+  outline: none;
+  border: 0;
+  background-color: #E8E8E8;
+  padding: 15px;
+  border-radius: 4px;
+}
+.field textarea {
+  height: 188px;
+}
+.field input[type="submit"] {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 8px;
+  background-color: #1C3F97;
+  transition: 0.3s all ease;
+}
+.field input[type="submit"]:hover {
+ background-color: #000000;
+}
+.contact-info h3 {
+  color: #fff;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.weekdays-list {
+  margin-top: 35px;
+}
+.weekdays-list h4 {
+  font-size: 24px;
+  opacity: .8;
+  margin-bottom: 12px;
+}
+.weekdays-list ul li {
+  color: #BEBEBE;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+.weekdays-list ul li span {
+  margin-left: 12px;
+}
+/*
+============================
+Contact Css End
+============================
+*/
+
 
 
 /*
