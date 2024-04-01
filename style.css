@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+  --primary: #0A4181;
+  --secondery: #171515;
+  --black: #000000;
+  --white-color: #fff;
+}
+
+/*
+===============================
+Global CSS START
+===============================
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #6F6F6F;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+img, svg {
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+  transition: 0.3s all ease;
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+  color: var(--text-white);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h4,
+h5 {
+  font-weight: 600;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p:last-of-type {
+	margin: 0;
+}
+
+/*
+==========================
+Main Btn Css Start
+==========================
+*/
+
+.site-btn {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 30px;
+  background-color: #1C3F97;
+  display: inline-block;
+  transition: 0.3s all ease;
+  border-radius: 4px;
+}
+
+.site-btn:hover {
+  color: #fff;
+}
+
+/*
+=========================
+Main Btn Css End 
+=========================
+*/
+
+#page {
+  overflow: hidden;
+}
+
+/*
+============================
+Global CSS END
+============================
+*/
+
+/*
+============================
+Header Css Start
+============================
+*/
+
+.site-header {
+  padding: 18px 0;
+}
+.main-menu ul li {
+  display: inline-block;
+}
+.main-menu ul li a {
+  color: var(--secondery);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  display: block;
+  padding: 0 12px;
+  transition: 0.3s all ease;
+}
+.main-menu ul li a:hover {
+  color: #26AAE2;
+}
+.header-btn {
+  text-align: right !important;
+}
+.header-btn a {
+  background-color: #26AAE2;
+  padding: 10px 25px;
+}
+/*
+============================
+Header Css End
+============================
+*/
+
+/*
+============================
+Banner Css Start
+============================
+*/
+.banner-area {
+  height: 650px;
+  background-size: cover;
+  background-position: center top;
+}
+.banner-content h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 83px;
+  margin-bottom: 20px;
+}
+.banner-content p {
+	color: #E6E6E6;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+	max-width: 880px;
+	margin: 0 auto;
+}
+.banner-content .site-btn {
+  margin-top: 40px;
+}
+@media only screen and (max-width:991px) {
+  .banner-content h1 {
+    font-size: 50px;
+    line-height: 65px;
+    margin-bottom: 15px;
+  }
+  .banner-content p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+@media only screen and (max-width:767px) {
+  .banner-area {
+    height: 580px;
+  }
+  .banner-content h1 {
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 10px;
+  }
+  .banner-content p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .banner-content .site-btn {
+    margin-top: 30px;
+  }
+}
+/*
+============================
+Banner Css End
+============================
+*/
+
+/*
+============================
+About Css Start
+============================
+*/
+.about-us-section {
+  margin: 120px 0 200px 0;
+}
+.about-image img {
+  width: 100%;
+}
+.sec-subtitle {
+	color: #26AAE2 !important;
+	font-size: 24px;
+	position: relative;
+	padding-left: 55px;
+	max-width: 160px;
+}
+.sec-subtitle:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 43px;
+  height: 2px;
+  background-color: #26AAE2;
+  transform: translateY(-50%);
+}
+.sec-subtitle::after {
+	content: "";
+	position: absolute;
+	left: -28px;
+	width: 71px;
+	height: 2px;
+	background-color: #26AAE2;
+	bottom: 7px;
+}
+.about-us-section .section-title {
+  padding-left: 30px;
+}
+.section-title h2 {
+	color: var(--primary);
+	font-size: 48px;
+	margin: 20px 0;
+}
+.about-us-section .site-btn {
+  margin-top: 40px;
+}
+@media only screen and (max-width:767px) {
+	.about-us-section {
+    margin: 100px 0 150px 0;
+  }
+  .about-us-section .section-title {
+    margin-top: 40px;
+  }
+  .sec-subtitle {
+    font-size: 20px;
+  }
+  .section-title h2 {
+    font-size: 30px;
+  }
+}
+/*
+============================
+About Css End
+============================
+*/
+
+/*
+============================
+Service Css Start
+============================
+*/
+
+.service-section {
+  margin-bottom: 100px;
+}
+.single-service {
+	position: relative;
+	margin-top: 30px;
+}
+.service-thumb {
+	display: block;
+}
+.service-thumb img {
+  width: 100%;
+}
+.single-service h4 {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+}
+@media only screen and (max-width:991px) {
+  .single-service h4 {
+    font-size: 20px;
+  }
+}
+/*
+============================
+Service Css End
+============================
+*/
+
+/*
+============================
+Quality Service Css Start
+============================
+*/
+.quality-service-section {
+	background-size: cover;
+	background-position: center top;
+	padding: 100px 0 200px 0;
+}
+.quality-service-content h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.quality-service-content p {
+	color: #fff;
+	margin-bottom: 20px;
+	max-width: 527px;
+}
+.quality-service-content h4 {
+  color: #fff;
+  font-size: 24px;
+  line-height: 24px;
+}
+.client-thumb-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 39px;
+  flex-wrap: wrap;
+}
+.client-thumb-inner ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.client-thumb-inner a {
+  font-size: 24px;
+  display: inline-block;
+  line-height: 24px;
+  font-weight: 500;
+  color: #0A4181;
+}
+@media only screen and (max-width:991px) {
+  .quality-service-content h1 {
+    font-size: 54px;
+  }
+  .quality-service-content h4 {
+    font-size: 22px;
+  }
+  .client-thumb-inner a {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width:767px) {
+  .quality-service-content h1 {
+    font-size: 35px;
+  }
+  .quality-service-content h4 {
+    font-size: 20px;
+  }
+  .client-thumb-inner ul li {
+    margin-bottom: 10px;
+  }
+  .client-thumb-inner a {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
+/*
+============================
+Quality Service Css End
+============================
+*/
+
+
+
+/*
+============================
+Footer Css Start
+============================
+*/
+
+
+
+/*
+============================
+Footer Css End
+============================
+*/
+
+
+
+
+
+
+
+/*
+============================
+Responsive Css Start
+============================
+*/
+
+@media screen and (min-width: 1360px) {
+
+ .container{
+    max-width: 1320px;
+ }
+ 
+ }
+ /* ----- Laptop device screen ----- */
+ @media only screen and (max-width:1199px) {
+ 
+ }
+ /* ----- Tablet device screen ----- */
+ @media only screen and (max-width:991px) {
+ 
+ }
+ /* ----- Mobile device screen ----- */
+ @media only screen and (max-width:767px) {
+ 
+ }
+ 
+ /*
+ ============================
+ Responsive Css End
+ ============================
+ */
