@@ -437,8 +437,9 @@ Contact Css Start
   margin-top: 370px;
 }
 .contact-inner {
-  background-size: cover;
-  background-position: center;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 30px;
 }
 .contact-info {
 	color: #fff;
@@ -508,6 +509,65 @@ Contact Css Start
 }
 .weekdays-list ul li span {
   margin-left: 12px;
+}
+@media only screen and (max-width:991px) {
+  .contact-section {
+    margin-top: 320px;
+  }
+}
+@media only screen and (max-width:767px) {
+  .contact-form {
+    padding: 35px;
+  }
+  .contact-info {
+    padding-left: 50px;
+  }
+}
+.contact-info-bottom {
+	background-color: #279ACB;
+	padding: 50px;
+	margin: 0 90px 0 90px;
+	margin-top: -95px !important;
+}
+.contact-info-box {
+	display: flex;
+	align-items: center;
+}
+.contact-info-box img {
+  margin-right: 20px;
+}
+.contact-info-box h4 {
+  color: #fff;
+  font-size: 24px;
+  line-height: 24px;
+}
+.contact-info-box p, .contact-info-box a {
+	color: #fff;
+	font-size: 16px;
+	line-height: 24px;
+  max-width: 198px;
+}
+@media only screen and (max-width:1199px) {
+  .contact-info-box {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width:767px) {
+	.contact-info-bottom {
+    padding: 40px;
+    margin: 0 50px 0 50px;
+  }
+  .contact-info-box {
+    display: block;
+    align-items: center;
+  }
+  .contact-info-box img {
+    margin-bottom: 15px;
+    width: 25px;
+  }
+  .contact-info-box h4 {
+    font-size: 20px;
+  }
 }
 /*
 ============================
