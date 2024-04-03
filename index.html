@@ -20,12 +20,19 @@
     <header class="site-header">
        <div class="container">
           <div class="row">
-             <div class="col-12 col-xl-4 align-self-center">
+             <div class="col-7 col-lg-3 align-self-center">
                 <div class="site-logo">
                    <a href="index.html"><img src="assets/images/logo.svg"></a>
                 </div>
              </div>
-             <div class="col-12 col-xl-4 align-self-center">
+             <div class="col-5 d-lg-none">
+               <div class="menu-tirgger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+             </div>
+             <div class="col-12 col-lg-6 align-self-center d-none d-lg-block">
                 <div class="main-menu text-center">
                    <ul>
                        <li><a href="#">Home</a></li>
@@ -35,7 +42,7 @@
                    </ul>
                 </div>
              </div>
-             <div class="col-12 col-xl-4 align-self-center">
+             <div class="col-12 col-lg-3 align-self-center d-none d-lg-block">
                 <div class="header-btn">
                     <a href="#" class="site-btn">Free Estimate</a>
                 </div>
@@ -43,6 +50,24 @@
           </div>
        </div>
     </header>
+    <div class="mobile-menu-wrapper d-lg-none"> 
+      <div class="mobile-menu-inner">
+           <div class="close-btn">
+             <img src="assets/images/close-icon.png">
+           </div>
+           <div class="main-menu text-center">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Financing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+         </div>
+         <div class="header-btn">
+            <a href="#" class="site-btn">Free Estimate</a>
+        </div>
+      </div>
+  </div>
     <!--- Header Area End Here --->
 
     <!--- Banner Area Start Here --->
@@ -293,8 +318,7 @@
        </div>
     </section>
     <!--- Contact Section End Here --->
-
-  
+    
     <!-- Footer Section Start Here -->
     <footer class="site-footer">
        <div class="container container-sm">
@@ -357,6 +381,8 @@
     <!----- jquery js ----->
     <script src="assets/js/bootstrap.min.js"></script>
     <!----- Bootstrap js ----->
+    <script src="assets/js/main.js"></script>
+    <!----- Active js ----->
    </div>
   </body>
 </html>
