@@ -284,7 +284,7 @@ About Css Start
 }
 @media only screen and (max-width:767px) {
 	.about-us-section {
-    margin: 100px 0 150px 0;
+    margin: 70px 0 70px 0;
   }
   .about-us-section .section-title {
     margin-top: 40px;
@@ -333,6 +333,11 @@ Service Css Start
 @media only screen and (max-width:991px) {
   .single-service h4 {
     font-size: 20px;
+  }
+}
+@media only screen and (max-width:767px) {
+	.service-section {
+    margin-bottom: 70px;
   }
 }
 /*
@@ -434,7 +439,8 @@ Contact Css Start
   padding-bottom: 100px;
 }
 .contact-section {
-  margin-top: 370px;
+	margin-top: 370px;
+	margin-bottom: 150px;
 }
 .contact-inner {
 	background-size: cover;
@@ -516,6 +522,9 @@ Contact Css Start
   }
 }
 @media only screen and (max-width:767px) {
+  .contact-section {
+    margin-top: 280px;
+  }
   .contact-form {
     padding: 35px;
   }
@@ -534,7 +543,7 @@ Contact Css Start
 	align-items: center;
 }
 .contact-info-box img {
-  margin-right: 20px;
+  margin-right: 15px;
 }
 .contact-info-box h4 {
   color: #fff;
@@ -553,6 +562,9 @@ Contact Css Start
   }
 }
 @media only screen and (max-width:767px) {
+  .contact-section {
+    margin-bottom: 70px;
+  }
 	.contact-info-bottom {
     padding: 40px;
     margin: 0 50px 0 50px;
@@ -582,9 +594,110 @@ Contact Css End
 Footer Css Start
 ============================
 */
-
-
-
+.site-footer {
+  background-color: #0F0F0F;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.footer-title {
+  color: #279ACB;
+  font-size: 40px;
+  font-weight: 700;
+}
+.form-email {
+	position: relative;
+	top: 30px;
+}
+.form-email input {
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 10px 150px 10px 0;
+	background: transparent;
+	color: #fff;
+	border: 0;
+	border-bottom: 1px solid #fff;
+	font-size: 16px;
+}
+.form-email.subscribe-btn {
+  position: absolute;
+}
+.form-email .subscribe-btn {
+	position: absolute;
+	top: 10px;
+	right: 0;
+	border: 0;
+	cursor: pointer;
+	font-size: 16px;
+	z-index: 9;
+	outline: none;
+	color: #1C3F97;
+	background: transparent;
+}
+.form-email .subscribe-btn img {
+  padding-left: 10px;
+}
+.footer-box {
+  margin-top: 50px;
+}
+.footer-logo {
+  margin-bottom: 10px;
+}
+.footer-box p {
+  color: #fff;
+}
+.widget-title {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.footer-menu ul {
+  column-count: 2;
+}
+.footer-menu ul li {
+  display: block;
+  margin-bottom: 10px;
+  page-break-inside: avoid;
+}
+.footer-menu ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.3s all ease;
+}
+.footer-box a {
+  color: #fff;
+}
+.footer-box a:hover {
+  color: #279ACB;
+}
+.footer-copyright {
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 80px;
+}
+@media only screen and (max-width:991px) {
+  .form-email {
+    top: 0;
+  }
+}
+@media only screen and (max-width:767px) {
+  .site-footer {
+    padding-top: 60px;
+  }
+  .footer-title {
+    font-size: 25px;
+  }
+  .widget-title {
+    font-size: 18px;
+  }
+  .footer-menu ul li a {
+    font-size: 15px;
+  }
+  .footer-box p {
+    font-size: 15px;
+  }
+}
 /*
 ============================
 Footer Css End
@@ -594,35 +707,19 @@ Footer Css End
 
 
 
-
-
-
 /*
 ============================
 Responsive Css Start
 ============================
 */
-
 @media screen and (min-width: 1360px) {
-
  .container{
     max-width: 1320px;
  }
- 
+ .container-sm{
+    max-width: 1170px;
  }
- /* ----- Laptop device screen ----- */
- @media only screen and (max-width:1199px) {
- 
  }
- /* ----- Tablet device screen ----- */
- @media only screen and (max-width:991px) {
- 
- }
- /* ----- Mobile device screen ----- */
- @media only screen and (max-width:767px) {
- 
- }
- 
  /*
  ============================
  Responsive Css End
